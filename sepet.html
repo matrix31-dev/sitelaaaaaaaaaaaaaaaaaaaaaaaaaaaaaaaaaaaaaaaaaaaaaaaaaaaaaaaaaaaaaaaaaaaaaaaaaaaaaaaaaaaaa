@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="style.css">
+ <body><header>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alışveriş Sepeti</title>
+    <style>
+        /* CSS still needed for styling */
+        /* Örnek CSS kodları buraya eklenir */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alışveriş Sepeti</h1>
+    </header>
+
+    <section>
+        <h2>Ürünler</h2>
+        <!-- Ürün listesi buraya eklenir -->
+    </section>
+
+    <section>
+        <h2>Sepet</h2>
+        <!-- Sepet içeriği buraya eklenir -->
+    </section>
+
+    <section>
+        <h2>Ürün Ekle</h2>
+        <form id="productForm">
+            <label for="productName">Ürün Adı:</label>
+            <input type="text" id="productName" name="productName" required>
+
+            <label for="quantity">Miktar:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <label for="price">Fiyat:</label>
+            <input type="number" id="price" name="price" min="0.01" step="0.01" required>
+
+            <button type="button" onclick="addToCart()">Sepete Ekle</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Alışveriş Sepeti</p>
+    </footer>
+
+    <!-- JavaScript dosyası buraya eklenir -->
+    <script>
+        function addToCart() {
+            // JavaScript ile sepete ekleme işlemleri burada gerçekleştirilir
+            // Örneğin, form verilerini alarak sepete ürün ekleyebilirsiniz
+        }
+    </script>
+</body>
+</html>
